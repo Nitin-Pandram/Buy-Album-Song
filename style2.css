@@ -1,0 +1,121 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #a0f11e;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.album-title {
+    font-size: 2.5em;
+    color:black;
+}
+
+.artist-name {
+    font-size: 1.5em;
+    color: black;
+}
+
+.tagline {
+    font-size: 1.2em;
+    color: #7f8c8d;
+}
+
+.album-info {
+    text-align: center;
+    background-color:black;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.album-cover {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    color: white;
+}
+
+.description {
+    font-size: 1.1em;
+    margin: 15px 0;
+    color: white;
+}
+
+.cta-button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 30px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 10px 5px;
+}
+
+.cta-button:hover {
+    background-color: #c0392b;
+}
+
+.secondary {
+    background-color: #3498db;
+}
+
+.secondary:hover {
+    background-color: #2980b9;
+}
+
+.tracklist, .testimonials {
+    margin-top: 30px;
+    background-color: black;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: white;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    color: white;
+}
+
+blockquote {
+    font-style: italic;
+    margin: 15px 0;
+    border-left: 4px solid #e74c3c;
+    padding-left: 15px;
+    color: white;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 0.9em;
+    color: #777;
+}
+
+footer a {
+    color: #e74c3c;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
